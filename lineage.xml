@@ -31,6 +31,7 @@
 
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
 
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
