@@ -166,6 +166,19 @@
   <project path="vendor/firmware" name="vendor_firmware" remote="evo-gitlab" clone-depth="1" />
   <project path="vendor/gms" name="vendor_gms" groups="vendor" remote="evo-gitlab" clone-depth="1" />
 
+  <!-- Vendor repos - NXP -->
+  <project path="vendor/nxp/nfc" name="PixelExperience/vendor_nxp_nfc" revision="thirteen" remote="github" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="PixelExperience/vendor_nxp_opensource_interfaces_nfc" revision="thirteen" remote="github" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="PixelExperience/vendor_nxp_opensource_commonsys_external_libnfc-nci" revision="thirteen" remote="github" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="PixelExperience/vendor_nxp_opensource_commonsys_frameworks" revision="thirteen" remote="github" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="PixelExperience/vendor_nxp_opensource_commonsys_packages_apps_Nfc" revision="thirteen" remote="github" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="PixelExperience/vendor_nxp_opensource_pn5xx_halimpl" revision="thirteen" remote="github" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="PixelExperience/vendor_nxp_opensource_pn5xx_hidlimpl" revision="thirteen" remote="github" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="PixelExperience/vendor_nxp_opensource_sn100x_halimpl" revision="thirteen" remote="github" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="PixelExperience/vendor_nxp_opensource_sn100x_hidlimpl" revision="thirteen" remote="github" />
+  <project path="vendor/nxp/secure_element" name="PixelExperience/vendor_nxp_secure_element" revision="thirteen" remote="github" />
+  <project path="vendor/nxp/secure_element_extns" name="PixelExperience/vendor_nxp_secure_element_extns" revision="thirteen" remote="github" />
+
   <!-- Vendor (Qcom) repos -->
   <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="evo" />
   <project path="vendor/qcom/opensource/healthd-ext" name="ArrowOS/android_vendor_qcom_opensource_healthd-ext" revision="arrow-13.0" remote="github" />
